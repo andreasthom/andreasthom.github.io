@@ -208,6 +208,65 @@ footer {
   margin-bottom: 0.6rem;
 }
 
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.thesis-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.thesis-table th,
+.thesis-table td {
+  padding: 0.6rem 0.4rem;
+  border-bottom: 1px solid rgba(27, 34, 48, 0.08);
+  vertical-align: top;
+}
+
+.thesis-table th {
+  text-align: left;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.thesis-table th:nth-child(1),
+.thesis-table td:nth-child(1) {
+  width: 22%;
+}
+
+.thesis-table th:nth-child(2),
+.thesis-table td:nth-child(2) {
+  width: 12%;
+}
+
+.thesis-table th:nth-child(3),
+.thesis-table td:nth-child(3) {
+  width: 46%;
+}
+
+.thesis-table th:nth-child(4),
+.thesis-table td:nth-child(4) {
+  width: 20%;
+}
+
+.thesis-table td:nth-child(3) {
+  overflow-wrap: anywhere;
+}
+
+.thesis-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.thesis-table .muted {
+  display: block;
+  margin-top: 0.2rem;
+}
+
 @media (max-width: 600px) {
   .container {
     margin: 1rem;
