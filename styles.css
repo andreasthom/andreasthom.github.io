@@ -90,6 +90,29 @@ nav {
   margin: 0.5rem 0 0.75rem;
 }
 
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.title-image-link {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+}
+
+.title-image {
+  max-height: 330px;
+  max-width: 100%;
+  width: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 22px rgba(26, 39, 74, 0.12);
+}
+
 .hero p {
   max-width: 640px;
 }
