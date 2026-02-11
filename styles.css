@@ -14,10 +14,21 @@
 
 a {
   color: var(--accent);
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 a:hover {
   color: #1f4bd6;
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  text-decoration: none;
 }
 
 body {
