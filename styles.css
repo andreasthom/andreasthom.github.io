@@ -179,6 +179,12 @@ h2 {
   gap: 1rem;
 }
 
+.meeting-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 .card {
   background: var(--card);
   border: 1px solid var(--border);
