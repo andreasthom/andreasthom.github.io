@@ -168,6 +168,37 @@ section {
   margin-top: 2.5rem;
 }
 
+.ai-mathematics {
+  display: flex;
+  justify-content: center;
+}
+
+.ai-mathematics-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 480px);
+  min-height: 100px;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #78a9a0;
+  border-radius: 12px;
+  background: #e9f4f1;
+  box-shadow: 0 12px 22px rgba(12, 83, 76, 0.12);
+  color: #0c534c;
+  text-align: center;
+}
+
+.ai-mathematics-card:hover {
+  background: #dff0eb;
+  color: #063f3a;
+}
+
+.ai-mathematics-card h2 {
+  margin: 0;
+  color: inherit;
+  font-size: 1.8rem;
+}
+
 h2 {
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
