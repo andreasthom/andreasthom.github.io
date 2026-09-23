@@ -129,6 +129,10 @@ nav {
   max-width: 640px;
 }
 
+.hero .notes-intro {
+  max-width: none;
+}
+
 .headshot {
   width: 100%;
   max-width: 260px;
